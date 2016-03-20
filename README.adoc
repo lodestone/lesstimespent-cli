@@ -15,18 +15,14 @@ There is no install script for this.
 . Make sure to `chmod +x ~/your/path/to/lts-toggle`
 . Change lts-toggle to correspond to your paths:
 
-    ```sh
     #!/bin/bash
     /usr/local/bin/casperjs $HOME/Sync/Code/casper/lesstimespent.js
-    ```
-    
+
 . Change lesstimespent to include your log in info:
 
-    ```js
     // lesstimespent.js
     login: "<CHANGEME>>",
     password: "<<CHANGEME>>",
-    ```
 
-(c) 2016 Matt Petty - @lodestone - matt@kizmeta.com
+(C) 2016 Matt Petty - @lodestone - matt@kizmeta.com
 
