@@ -7,19 +7,21 @@ A quick and dirty way to start and stop your current project timer on LessTimeSp
 There is no install script for this. 
 
 . Grab `lesstimespent.js` and `lts-toggle`.
-. Save them in appropriate places. 
+. Save them in appropriate places. - _Just copy the two main files and save them somewhere appropriate for your system. I like to stick my binaries in `~/.bin` (making sure to set your `$PATH` correspondingly). So I stick `lts-toggle` in there and save `lesstimespent.js` somewhere in my Code directories. In my case, I chose to save it in a directory that holds other casper scripts. Do what you will. Post an issue here if you need help._
+. Make sure to `chmod +x ~/your/path/to/lts-toggle`
+. Change lts-toggle to correspond to your paths:
 
-> Just copy the two main files and save them somewhere appropriate for your system. I like to stick my binaries in `~/.bin` (making sure to set your `$PATH` correspondingly). So I stick `lts-toggle` in there and save `lesstimespent.js` somewhere in my Code directories. In my case, I chose to save it in a directory that holds other casper scripts. Do what you will. Post an issue here if you need help.
+    ```sh
+    #!/bin/bash
+    /usr/local/bin/casperjs $HOME/Sync/Code/casper/lesstimespent.js
+    ```
+    
+. Change lesstimespent to include your log in info:
 
-```sh
-#!/bin/bash
-/usr/local/bin/casperjs $HOME/Sync/Code/casper/lesstimespent.js
-```
-
-```js
-// lesstimespent.js
-login: "<CHANGEME>>",
-password: "<<CHANGEME>>",
-```
+    ```js
+    // lesstimespent.js
+    login: "<CHANGEME>>",
+    password: "<<CHANGEME>>",
+    ```
 
 
