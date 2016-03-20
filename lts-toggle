@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# lts-toggle - make sure this file is pointing to all the correct places and files. Also +x. 
+
+/usr/local/bin/casperjs $HOME/Sync/Code/casper/lesstimespent.js
