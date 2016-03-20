@@ -10,7 +10,11 @@ A quick and dirty way to start and stop your current project timer on http://Les
 
 There is no install script for this. 
 
-. Grab `lesstimespent.js` and `lts-toggle`.
+. Install casperjs. 
+    
+    brew install casperjs
+    
+. Grab `link:https://github.com/lodestone/lesstimespent-cli/raw/master/lesstimespent.js[lesstimespent.js]` and `link:https://github.com/lodestone/lesstimespent-cli/raw/master/lts-toggle[lts-toggle]`.
 . Save them in appropriate places. - _Just copy the two main files and save them somewhere appropriate for your system. I like to stick my binaries in `~/.bin` (making sure to set your `$PATH` correspondingly). So I stick `lts-toggle` in there and save `lesstimespent.js` somewhere in my Code directories. In my case, I chose to save it in a directory that holds other casper scripts. Do what you will. Post an issue here if you need help._
 . Make sure to `chmod +x ~/your/path/to/lts-toggle`
 . Change lts-toggle to correspond to your paths:
