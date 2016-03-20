@@ -24,5 +24,7 @@ There is no install script for this.
     login: "<CHANGEME>>",
     password: "<<CHANGEME>>",
 
-(C) 2016 Matt Petty - @lodestone - matt@kizmeta.com
+(C) 2016 Matt Petty - Find me @lodestone on link:https://Twitter.com/lodestone[Twitter], link:https://git.io/lodestone[Github], and pretty much link:https://www.linkedin.com/in/lodestone[everywhere] link:http://gitlab.com/lodestone[else].
+
+Old fogeys can contact me here: matt@kizmeta.com
 
