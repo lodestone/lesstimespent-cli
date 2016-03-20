@@ -10,7 +10,7 @@
 
 LessSpiderTime = {
 
-  login: "matt",
+  login: "<<CHANGEME>>",
   password: "<<CHANGEME>>",
 
   go: function() {
