@@ -1,6 +1,10 @@
 = lesstimespent-cli
+author: Matt Petty
+copyright: 2016
 
-A quick and dirty way to start and stop your current project timer on LessTimeSpent.com
+:hide-uri-scheme:
+
+A quick and dirty way to start and stop your current project timer on http://LessTimeSpent.com
 
 == Installation
 
@@ -24,4 +28,5 @@ There is no install script for this.
     password: "<<CHANGEME>>",
     ```
 
+(c) 2016 Matt Petty - @lodestone - matt@kizmeta.com
 
